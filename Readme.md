@@ -9,10 +9,10 @@ Scrolling animation it's a short library of CSS and JS that simplify the work of
 ## Table of Contents
 
 - [About](#about)
-- [Getting Started](#getting_started)
+- [Getting started](#getting_started)
 - [Deployment](#deployment)
 - [Usage](#usage)
-- [Built Using](#built_using)
+- [Built using](#built_using)
 - [Authors](#authors)
 - [Acknowledgments](#acknowledgement)
 
