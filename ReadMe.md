@@ -23,3 +23,15 @@ Some important fact of Scrolling Animation Library:
 - Completely personalizable
 - Fast laoding time
 - Fancy
+
+## Getting Started <a name = "getting_started"></a>
+
+The following instructions will get you a copy of the project and how to run it on your local machine for development and testing purposes. 
+
+## Prerequisites
+This library doesn't require dependenpencies or other framework. Just add the required files to your project, then you're ready to go.
+ ```
+ <div data-scroll="fade-up 1s hide">
+   <h1>code here...</h1>
+ </div>
+ ```
