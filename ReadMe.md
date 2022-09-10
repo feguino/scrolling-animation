@@ -10,7 +10,6 @@ Scrolling animation it's a short library of CSS and JS that simplify the work of
 
 - [About](#about)
 - [Getting started](#getting_started)
-- [Deployment](#deployment)
 - [Usage](#usage)
 - [Built using](#built_using)
 - [Authors](#authors)
@@ -28,7 +27,7 @@ Some important fact of Scrolling Animation Library:
 
 The following instructions will get you a copy of the project and how to run it on your local machine for development and testing purposes. 
 
-## Prerequisites
+### Prerequisites
 This library doesn't require dependenpencies or other framework. Just add the required files to your project, then you're ready to go.
  ```
  <div data-scroll="fade-up 1s hide">
