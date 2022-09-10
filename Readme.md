@@ -16,7 +16,7 @@ Scrolling animation it's a short library of CSS and JS that simplify the work of
 - [Authors](#authors)
 - [Acknowledgments](#acknowledgement)
 
-## About `<a name = "about"></a>`
+## About <a name = "about"></a>
 Scrolling Animation is a new library that will make your website alive, providing some preset animation that can added to the element of your website with only one data attribute. No need to write a lot of code.
 
 Some important fact of Scrolling Animation Library: 
