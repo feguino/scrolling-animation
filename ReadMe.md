@@ -30,7 +30,7 @@ The following instructions will get you a copy of the project and how to run it 
 ### Prerequisites
 This library doesn't require dependenpencies or other framework. Just add the required files to your project, then you're ready to go.
  ```
- <div data-scroll="fade-up 1s hide">
+ <div data-scroll="fade-up 1s 0.5s hide">
    <h1>code here...</h1>
  </div>
  ```
