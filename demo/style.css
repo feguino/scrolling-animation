@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&family=Source+Sans+Pro&display=swap');
+
+
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    max-width: 1280px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
+
+header h3 {
+    font-weight: 400;
+}
+
+.scroll-container {
+    height: 100vh;
+    min-height: 450px;
+    padding: 2rem 1rem;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.scroll-container:nth-of-type(1) {
+    background-color: #bdd0c4;
+}
+
+.scroll-container:nth-of-type(2) {
+    background-color: #f5d2d3;
+}
+
+.scroll-container:nth-of-type(3) {
+    background-color: #9ab7d3;
+}
+
+.scroll-container:nth-of-type(4) {
+    background-color: #dfccf1;
+}
+
+.scroll-container:nth-of-type(even) {
+    flex-direction: row-reverse;
+}
+
+.scroll-element,
+.scroll-caption {
+    width: 50%;
+}
+
+.scroll-element {
+    min-height: 300px;
+    height: 100%;
+    background-color: #eaeaea;
+}
+
+.scroll-caption {
+    margin: 1rem;
+}
+
+footer {
+    text-align: center;
+    padding: 0.5rem 0;
+    background-color: #faddad;
+}
+
+footer p {
+    font-size: 0.75rem;
+    margin: 0.25rem 0;
+    color: #221133;
+}
+
+footer a {
+    text-decoration: none;
+    color: inherit;
+}
