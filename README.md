@@ -3,7 +3,7 @@
 </p>
 
 <h1 align="center">Scrolling Animations</h1>
-Scrolling animation it's a short library of CSS and JS that simplify the work of adding animation to the elements of a webpage when they are visible on the viewport when the page is being scrolling down. [View the demo](https://scrolling-animation.pages.dev/)
+Scrolling animation it's a short library of CSS and JS that simplify the work of adding animation to the elements of a webpage when they are visible on the viewport when the page is being scrolling down. <a href="https://scrolling-animation.pages.dev/" target="_blank" rel="noopener">View the demo.</a>
 
 
 ## Table of Contents
