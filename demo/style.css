@@ -25,6 +25,14 @@ header h3 {
     font-weight: 400;
 }
 
+header img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 90px;
+    max-width: 100%;
+}
+
 .scroll-container {
     height: 100vh;
     min-height: 450px;
