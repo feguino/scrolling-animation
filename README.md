@@ -5,6 +5,12 @@
 <h1 align="center">Scrolling Animations</h1>
 Scrolling animation it's a short library of CSS and JS that simplify the work of adding animation to the elements of a webpage when they are visible on the viewport when the page is being scrolling down. <a href="https://scrolling-animation.pages.dev/" target="_blank" rel="noopener noreferrer">View the demo.</a>
 
+<div align="center">
+<br>
+ 
+ [![Status](https://img.shields.io/badge/status-active-success.svg)]()    [![GitHub Issues](https://img.shields.io/github/issues/feguino/scrolling-animation)](https://github.com/feguino/scrolling-animation/issues)    [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/feguino/scrolling-animation)](https://github.com/feguino/scrolling-animation/pulls)    [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
+ 
+</div>
 
 ## Table of Contents
 - [About](#about)
@@ -35,6 +41,17 @@ This library doesn't require dependenpencies or other framework. Just add the re
  
  ### Installing
 1. You can download an offline copy for you project, just by clicking Download zip up above. Then manually add the css and js file to your project. 
+ 
+    The CSS File
+     ```
+     <link rel="stylesheet" type="text/css" href="scroll-animate.css">
+     ```
+
+     The Javascript File
+     ```
+     <link rel="stylesheet" type="text/javascript" href=scroll-animate.js">
+     ```
+     
 2. You can use the CDN links below and include it directly to your project.
  
     The CSS File
@@ -44,7 +61,7 @@ This library doesn't require dependenpencies or other framework. Just add the re
 
      The Javascript File
      ```
-     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/feguino/scrolling-animation/dist/scroll-animate.js">
+     <link rel="stylesheet" type="text/javascript" href="https://cdn.jsdelivr.net/gh/feguino/scrolling-animation/dist/scroll-animate.js">
      ```
 
 ## Usage <a name="usage"></a>
