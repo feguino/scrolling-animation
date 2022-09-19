@@ -1,12 +1,8 @@
 const scrollElements = document.querySelectorAll("[data-scroll]");
-
-
-
 var throttleTimer;
 
 const throttle = (callback, time) => {
   if (throttleTimer) return;
-
 	throttleTimer = true;
 	setTimeout(() => {
     callback();
@@ -16,7 +12,6 @@ const throttle = (callback, time) => {
 
 const elementInView = (el, dividend = 1) => {
   const elementTop = el.getBoundingClientRect().top;
-
   return (
     elementTop <=
     (window.innerHeight || document.documentElement.clientHeight) / dividend
@@ -25,7 +20,6 @@ const elementInView = (el, dividend = 1) => {
 
 const elementOutofView = (el) => {
   const elementTop = el.getBoundingClientRect().top;
-
   return (
     elementTop > (window.innerHeight || document.documentElement.clientHeight)
   );
@@ -45,11 +39,12 @@ const displayScrollElement = (element) => {
 const hideScrollElement = (element) => {
     let scroll_Class = element.getAttribute("data-scroll").split(" ");
     element.classList.remove(scroll_Class[0]);
-    element.style.animationDuration = "0s";
-    element.style.animationDelay = "0s";
+    element.style.animationDuration = "";
+    element.style.animationDelay = "";
     if (scroll_Class[3]=="hide"){
-        element.parentElement.style.overflow = "auto";
+        element.parentElement.style.removeProperty("overflow");
     }
+    
 };
 
 const handleScrollAnimation = () => {
@@ -63,17 +58,13 @@ const handleScrollAnimation = () => {
 }
 
 window.addEventListener("scroll", () => { 
-  
   throttle(() => {
     handleScrollAnimation();
-   
   }, 250);
 });
 
 window.addEventListener('load',()=>{
-    
     throttle(() => {
         handleScrollAnimation();
-       
       }, 250);
 })
